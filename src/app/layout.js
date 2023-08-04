@@ -1,6 +1,6 @@
 import "./globals.css";
-import Navbar from "@/components/shared/navbar";
-import Footer from "@/components/shared/footer";
+// import Navbar from "@/components/shared/navbar";
+// import Footer from "@/components/shared/footer";
 // import { Inter } from 'next/font/google'
 
 // const inter = Inter({ subsets: ['latin'] })
@@ -14,13 +14,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Navbar />
+        {/* <Navbar /> */}
 
         <div className="min-h-screen text-4xl" screen>
           {children}
         </div>
 
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
